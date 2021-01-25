@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "SlideOrderfood",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

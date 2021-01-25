@@ -1,0 +1,43 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons>
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>Credit</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <div>
+
+        <ion-fab right class="pop-in" style="top: 23rem;">
+            <button ion-fab mini color="dark"><ion-icon name="camera"></ion-icon></button>
+        </ion-fab>
+    </div>
+    <div>
+        <ion-item>
+            <ion-label>Card Type</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Card Number</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Expiry Month</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Expiry Year</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>CVV</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+    </div>
+
+
+    <ion-button expand="full" color="warning" (click)="goaddress()">CheckOut</ion-button>
+</ion-content>

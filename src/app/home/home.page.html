@@ -1,0 +1,126 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            Home
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+    <ion-slides [options]="option" class="ion-margin-top">
+
+
+        <ion-slide>
+            <ion-card class="slide">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/burger-specials-design-template-25c01be7ed874361ec83d0a7a9dcdb07_screen.jpg?ts=1570818597">
+
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-card class="slide">
+                <img src="https://www.restaurants.co.za/images/specials/full/image_1602479527.jpg">
+            </ion-card>
+        </ion-slide>
+
+
+        <ion-slide>
+            <ion-card class="slide">
+                <img src="https://image.shutterstock.com/image-vector/friday-wine-special-offer-isolated-260nw-1386858332.jpg">
+            </ion-card>
+        </ion-slide>
+
+
+    </ion-slides>
+    <h4>Categories</h4>
+    <ion-chip>
+        <ion-avatar (click)="allmenupizza()">
+            <img src="https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900">
+        </ion-avatar>
+
+    </ion-chip>
+
+    <ion-chip>
+        <ion-avatar (click)="allmenuwine()">
+            <img src="https://media1.s-nbcnews.com/i/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p_d9270c5c545b30ea094084c7f2342eb4.jpg">
+        </ion-avatar>
+
+    </ion-chip>
+
+    <ion-chip>
+        <ion-avatar (click)="allmenuburger()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Red_and_white_wine_12-2015.jpg/1200px-Red_and_white_wine_12-2015.jpg">
+        </ion-avatar>
+
+    </ion-chip>
+    <ion-grid>
+        <h4>Pizza</h4>
+        <ion-row>
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://i.insider.com/5f988ad469331a0011bc597d">
+                </ion-card>
+            </ion-col>
+
+
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://media.workandmoney.com/ef/16/ef168f93358c4d4fb38ccf8586f1897e.jpeg">
+                </ion-card>
+            </ion-col>
+
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://i.insider.com/5b4631bf20e3a842008b45b0?width=1100&format=jpeg&auto=webp">
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+
+
+        <h4>Wines</h4>
+        <ion-row>
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://s7e5a.scene7.com/is/image/waitrose/CellarProductDetailMainImage/697187_a_la-cerisa-rosa-pinot-grigio-rose-697187">
+                </ion-card>
+            </ion-col>
+
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://www.enterwine.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/c/a/can-sumoi-perfum17.jpg">
+                </ion-card>
+            </ion-col>
+
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://www.decantalo.com/450495-thickbox_default/can-sumoi-xarello.jpg">
+                </ion-card>
+            </ion-col>
+        </ion-row>
+        <h4>Burger</h4>
+
+        <ion-row>
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://media1.s-nbcnews.com/j/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p_d9270c5c545b30ea094084c7f2342eb4.fit-760w.jpg">
+                </ion-card>
+            </ion-col>
+
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/news-image/flame-grilled-chicken-burger-ideal-burger-applications.jpg?itok=h1G51Yk2">
+                </ion-card>
+            </ion-col>
+            <ion-col col-4>
+                <ion-card (click)="allmenuburger()">
+                    <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/6/1/2/FNM_070112-Copy-That-Almost-Famous-Animal-Style-Burger-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1382541460839.jpeg">
+                </ion-card>
+            </ion-col>
+        </ion-row>
+
+
+
+    </ion-grid>
+</ion-content>

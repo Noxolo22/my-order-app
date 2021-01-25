@@ -1,0 +1,7 @@
+{
+  "name": "SlideOrderfood",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

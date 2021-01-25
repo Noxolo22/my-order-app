@@ -1,0 +1,68 @@
+<!-- <ion-content no-margin padding no-padding overflow-scroll="false">
+    <ion-toolbar color="white">
+      <ion-buttons left>
+        <!-- <button (click)="dismiss()" ion-button icon-only> -->
+          <!-- <ion-icon ios="ios-arrow-round-back" md="ios-arrow-round-back"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+    <form [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)" padding role="form">
+      <h2>Login into accounts</h2>
+      <p color="light">Don't want to sign up now </p>
+      <br /> -->
+      <!-- <ion-item no-padding>
+        <ion-label stacked>Email</ion-label>
+        <ion-input formControlName="email" type="email" placeholder="Enter your email id" autofocus></ion-input>
+      </ion-item>
+      
+      <ion-item no-padding>
+        <ion-label stacked>Password</ion-label>
+        <ion-input formControlName="password" type="password" placeholder="Enter your password (use alphanumeric)" required ></ion-input>
+      </ion-item>
+      <br />
+      <button [disabled]="loginForm.controls.email.invalid || loginForm.controls.password.invalid" type="submit" round ion-button color="royallight">
+        Sign In
+      </button>
+      <p color="light">Cant remeber you password ? <a>Recover password</a></p>
+    </form>
+    <div id="canvas"></div>
+  </ion-content> 
+  
+  <!-- <ion-footer (click)="goToRegister()"> -->
+    <!-- <ion-grid>
+      <ion-row>
+        <ion-col align="center">
+          <h4>Create An Account</h4>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-footer> --> 
+
+
+
+
+  <ion-header>
+    <ion-toolbar>
+        <ion-button color="light" (click)="allmenu()">Close</ion-button>
+        <ion-title>Login</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content padding>
+
+    <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input ngModel type="email" name="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input ngModel type="password" name="password"></ion-input>
+    </ion-item>
+
+    <!-- <p text-right>Forgot Password?</p> -->
+
+    <ion-button type="submit" expand="full" color="warning" (click)='allmenu()' >Login</ion-button>
+
+    <!-- <p text-center>Don't have a account?</p>
+    <ion-button expand="full" color="warning">Register</ion-button> -->
+</ion-content>
